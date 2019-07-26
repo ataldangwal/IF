@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="45dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/Linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:text="@string/txt_Button_ads"
+            android:fontFamily="@font/montserrat"/>
+
+        <Button
+            android:id="@+id/btnWishList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:text="@string/txt_Button_wishlist"
+            android:fontFamily="@font/montserrat"/>
+
+        <Button
+            android:id="@+id/btnUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:text="@string/txt_Button_Users"
+            android:fontFamily="@font/montserrat"/>
+    </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/Framelayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="2dp">
+
+        </FrameLayout>
+
+</RelativeLayout>

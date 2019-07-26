@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SingleAdDisplayActivity"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="#F2F3F5">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="#F2F3F5"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:descendantFocusability="afterDescendants"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutDescription">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="User Feedback"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutAddComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="#F2F3F5"
+                android:orientation="horizontal"
+                android:descendantFocusability="afterDescendants"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LinearLayoutDescription">
+
+                <EditText
+                    android:id="@+id/EditTextAddFeedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundbuttonempty1"
+                    android:ems="10"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/nunito_sans"
+                    android:gravity="top"
+                    android:hint="@string/Hint_txt_Add_a_Feedback"
+                    android:inputType="textMultiLine"
+                    android:textColorHint="#A9A9A9"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:paddingBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutAddComment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select rating"
+            android:layout_gravity="center"
+            android:layout_marginEnd="4dp"
+            />
+
+        <Spinner
+            android:id="@+id/SpinnerRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dropDownWidth="50dp">
+
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:paddingBottom="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LinearLayoutAddComment">
+
+                <Button
+                    android:id="@+id/btnAddFeedback"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundbuttonempty1"
+                    android:backgroundTint="#000000"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/submitbutton_text"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+
+
+</LinearLayout>

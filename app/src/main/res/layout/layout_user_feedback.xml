@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFeedback_Activity"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="#F2F3F5"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:gravity="center_vertical|start"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IF_Hdeading"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <ListView
+        android:id="@+id/UserFeedBackListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:focusable="true"
+        android:dividerHeight="10dp"
+        android:divider="#F2F3F5"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:scrollbars="none" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F3F5"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/mainlayout">
+
+
+    <LinearLayout
+        android:id="@+id/CheckBoxLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/PostAdCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="#000000"
+            android:checked="true"
+            android:text="@string/txt_Post_an_ad"
+            android:fontFamily="@font/nunito_sans"/>
+
+
+
+        <CheckBox
+            android:id="@+id/WishCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/txt_Make_a_wish"
+            android:buttonTint="#000000"
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/CheckBoxLinearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CheckBoxLinearLayout">
+
+                <CheckBox
+                    android:id="@+id/NewCheckBox"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#000000"
+                    android:checked="true"
+                    android:text="@string/txt_New"
+                    android:fontFamily="@font/nunito_sans"/>
+
+                <CheckBox
+                    android:id="@+id/OldCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="@string/txt_Used"
+                    android:fontFamily="@font/nunito_sans"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TitleHeadingLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LocalityLinearLayout">
+
+
+                <TextView
+                    android:id="@+id/tvTitleHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:text="Title"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"/>
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TitleLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundbuttonempty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBoxLinearLayout2">
+
+        <EditText
+            android:id="@+id/TitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginStart="8dp"
+            android:inputType="textPersonName"
+            android:backgroundTint="#000000"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_title"
+            android:drawablePadding="8dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="#A9A9A9"
+            android:maxLength="100"
+            android:hint="A catchy title grabs more attention"
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/TitleCategoryLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LocalityLinearLayout">
+
+
+                <TextView
+                    android:id="@+id/tvTitleCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:text="Category"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"
+                    />
+
+            </LinearLayout>
+    <LinearLayout
+        android:id="@+id/CategoryLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundbuttonempty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleLinearLayout">
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVCategory"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#000000"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="#A9A9A9"
+            android:imeOptions="actionNext"
+            android:hint="Please select a category"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_category"
+            android:drawablePadding="8dp"
+            android:singleLine="true"
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/TitleLocalityLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LocalityLinearLayout">
+
+
+                <TextView
+                    android:id="@+id/tvTitleLocality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:text="Locality"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"/>
+
+            </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LocalityLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundbuttonempty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CategoryLinearLayout">
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVLocality"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#000000"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="#A9A9A9"
+            android:imeOptions="actionNext"
+            android:hint="Please select a locality"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_city"
+            android:drawablePadding="8dp"
+            android:singleLine="true"
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/AddImageLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LocalityLinearLayout">
+
+
+        <TextView
+            android:id="@+id/tvAddImages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_Add_images"
+            android:textColor="#000000"
+            android:fontFamily="@font/nunito_sans"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ImageLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddImageLinearLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:scaleType="fitXY">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    android:adjustViewBounds="true" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/TitleDescriptionLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LocalityLinearLayout">
+
+
+                <TextView
+                    android:id="@+id/tvTitleDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/Hint_txt_ad_description"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"/>
+
+            </LinearLayout>
+    <LinearLayout
+        android:id="@+id/DescriptionLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundbuttonempty1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageLinearLayout">
+
+        <EditText
+            android:id="@+id/DescriptionEditText"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:maxLength="5000"
+            android:hint="A good description attracts more attention"
+            android:background="@android:color/transparent"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="#A9A9A9"
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/TitlePriceLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LocalityLinearLayout">
+
+
+                <TextView
+                    android:id="@+id/tvTitlePrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:text="Selling Price"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat"/>
+
+            </LinearLayout>
+    <LinearLayout
+        android:id="@+id/PriceLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:background="@drawable/roundbuttonempty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DescriptionLinearLayout">
+
+        <EditText
+            android:id="@+id/PriceEditText"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:hint="Leave blank if not sure"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_sp"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/nunito_sans"
+            android:inputType="number"
+            android:textColorHint="#A9A9A9"
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal">
+                <CheckBox
+                    android:id="@+id/DisplayPhoneNumberCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#000000"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="@string/Allow_number_on_post_text"
+                    android:fontFamily="@font/nunito_sans"/>
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SubmitButtonLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PriceLinearLayout">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/submitbutton_text"
+
+            android:fontFamily="@font/montserrat"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/roundbuttonempty1"/>
+    </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

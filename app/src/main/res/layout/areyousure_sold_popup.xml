@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F3F5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:background="@drawable/roundbuttonempty1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <EditText
+            android:id="@+id/SellingPriceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:fontFamily="@font/nunito_sans"
+            android:hint="@string/txt_Selling_Price_2"
+            android:inputType="number"
+            android:maxLength="100"
+            android:drawableLeft="@drawable/icon_sp"
+            android:drawablePadding="8dp"
+            android:textColorHint="#A9A9A9"
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="@string/submitbutton_text"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/montserrat"
+            android:backgroundTint="#000000"
+            android:textSize="12dp"
+            android:background="@drawable/roundbuttonempty1"/>
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/cancelbutton_text"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/montserrat"
+            android:backgroundTint="#000000"
+            android:textSize="12dp"
+            android:background="@drawable/roundbuttonempty1"/>
+    </LinearLayout>
+</LinearLayout>

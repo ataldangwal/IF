@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F3F5">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_Update_Details"
+            android:textColor="#000000"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/roundbuttonempty1"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/ACTVUpdateCity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/Hint_txt_Update_City"
+            android:fontFamily="@font/nunito_sans"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_city"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/roundbuttonempty1"
+        >
+
+        <EditText
+            android:id="@+id/etEditPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_sans"
+            android:hint="@string/Hint_txt_Update_Your_phone_number"
+            android:inputType="phone"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_phone"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/roundbuttonempty1"
+        >
+
+        <EditText
+            android:id="@+id/etEditFullName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_sans"
+            android:hint="@string/Hint_txt_Update_your_name"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_user"
+            android:drawablePadding="8dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/roundbuttonempty1"
+        >
+
+        <EditText
+            android:id="@+id/etEditPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_sans"
+            android:hint="@string/Hint_txt_Update_your_password"
+            android:inputType="textVisiblePassword"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/icon_password"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingBottom="8dp"
+        >
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/submitbutton_text"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/montserrat"
+            android:backgroundTint="#000000"
+            android:textSize="12dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/roundbuttonempty1"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/cancelbutton_text"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/montserrat"
+            android:backgroundTint="#000000"
+            android:textSize="12dp"
+            android:background="@drawable/roundbuttonempty1"/>
+    </LinearLayout>
+</LinearLayout>

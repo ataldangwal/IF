@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="?attr/actionBarSize"
+    android:background="#F2F3F5"
+    android:paddingTop="4dp"
+    >
+
+    <TextView
+        android:id="@+id/tvNoAds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/txt_No_ads"
+        android:textSize="30sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <ListView
+            android:id="@+id/AdListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:dividerHeight="10dp"
+            android:divider="#F2F3F5"
+            android:scrollbars="none"
+            android:layout_marginBottom="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

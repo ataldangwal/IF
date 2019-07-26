@@ -1,0 +1,284 @@
+<resources xmlns:color="http://schemas.android.com/tools">
+    <string name="app_name">I F</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Market</string>
+    <string name="title_wishlist">Wishlist</string>
+    <string name="title_notifications">Notifs</string>
+    <string name="title_postad">Post</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Sign_up_with_underline"><u>Sign up</u></string>
+    <string name="Sign_up_text">Sign up</string>
+    <string name="Sign_in_text"><u>Sign in</u></string>
+    <string name="Product_name">IF</string>
+    <string name="txt_full_name">Full Name</string>
+    <string name="txt_Email">Email</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="password_sent">Password sent to the email address.</string>
+    <string name="error_enter_email">Please enter a valid email</string>
+    <string name="txt_password">Password</string>
+    <string name="searchview_hint">Enter product, locality or person</string>
+    <string name="txt_noWishes">No Wishes</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="Allow_number_on_bid_text">Allow seller to contact you</string>
+    <string name="Allow_number_on_post_text">Allow others to contact you</string>
+    <string name="txt_already_have_account">Already Have an account?</string>
+    <string name="txt_tag_line">S I M P L E . \u0020 \u0020 C O N V E N I E N T .</string>
+    <string name="txt_tag_line_2"> CONVENIENT</string>
+    <string name="title_activity_testactivity">Testactivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">profileActivity</string>
+    <string name="sold_text"><b>SOLD</b></string>
+    <string name="bids_text"><b>BIDS</b></string>
+    <string name="Report_result">Report submitted.</string>
+    <string name="Report_reason">\u0002 Please enter detailed reason for report here</string>
+    <string name="submitbutton_text">SUBMIT</string>
+    <string name="cancelbutton_text">CANCEL</string>
+    <string name="txt_Rating">Rating</string>
+    <string name="txt_userfeedback">User Feedback</string>
+    <string name="txt_out_of_five">/5</string>
+    <string name="txt_remove_profile_picture">Remove profile picture</string>
+    <string name="enter_bid_amount">Enter bid amount</string>
+    <string name="bid_result">bid placed</string>
+    <string name="error_report">*Please enter a reason.</string>
+    <string name="error_bid">* Please enter bid amount.</string>
+    <string name="choose_image_source_title">Select a source</string>
+    <string name="used_title_bold"><strong>Used</strong></string>
+    <string name="used_title">Used</string>
+    <string name="new_title_bold"><strong>New</strong></string>
+    <string name="new_title">New</string>
+    <string name="are_you_sure_text1">Are you sure you want to repost this ad?</string>
+    <string name="are_you_sure_text2">Are you sure this product is sold? </string>
+    <string name="are_you_sure_text3">Are you sure you want to delete this ad?</string>
+    <string name="are_you_sure_text4">Are you sure you want to delete this Wish?</string>
+    <string name="notification_first_bid">has made a bid on your <b>Ad</b></string>
+    <string name="notification_higher_bid">has made a higher bid on your <b>Ad</b></string>
+    <string name="notification_demand">has demanded your <b>Ad</b></string>
+    <string name="notification_fulfill">has requested to fulfill your <b>Wish</b></string>
+    <string name="notification_commentForAd">has commented on your <b>Ad</b></string>
+    <string name="notification_commentForWish">has commented on your <b>Wish</b></string>
+    <string name="IF_Hdeading">I F</string>
+    <string name="IF_Heading_Splash_Screen"> IF</string>
+    <string name="txt_Sign_In">Sign In</string>
+    <string name="txt_Dont_have_an_account">Don\'t have an account?</string>
+    <string name="txt_Sign_Up_Uppercase">SIGN UP</string>
+    <string name="txt_Selling_Price">Price (Leave blank if not sure)</string>
+    <string name="txt_Selling_Price_2">Selling Price</string>
+    <string name="txt_number_of_bids">Number of bids</string>
+    <string name="txt_Highest_Bids">Highest Bids</string>
+    <string name="txt_Description">Description</string>
+    <string name="txt_no_selling_price">Price yet to be discovered</string>
+    <string name="txt_Button_Add_Comment">ADD COMMENT</string>
+    <string name="txt_Sold">SOLD</string>
+    <string name="txt_Bids">BIDS</string>
+    <string name="txt_Badge">BADGE</string>
+    <string name="txt_ADS">ADS</string>
+    <string name="txt_Button_Yes">YES</string>
+    <string name="txt_Button_No">NO</string>
+    <string name="txt_Button_Camera">CAMERA</string>
+    <string name="txt_Button_Gallery">GALLERY</string>
+    <string name="txt_Update_Details">UPDATE DETAILS</string>
+    <string name="Hint_txt_Update_City">Update City</string>
+    <string name="Hint_txt_Update_Your_phone_number">Update your phone number</string>
+    <string name="Hint_txt_Update_your_name">Update your name</string>
+    <string name="Hint_txt_Update_your_password">Update your password</string>
+    <string name="txt_button_Sign_In">SIGN IN</string>
+    <string name="Hint_txt_phone_number">Phone Number</string>
+    <string name="Hint_txt_City">Select a city</string>
+    <string name="txt_number_of_demands">Number of demands</string>
+    <string name="Hint_txt_Add_a_Comment">\u0008 Add a Comment</string>
+    <string name="Hint_txt_Add_a_Feedback">\u0008 Enter Feedback</string>
+    <string name="txt_No_ads">No Ads</string>
+    <string name="single_ad_no_selling_price_txt">Yet to be discovered</string>
+    <string name="txt_Inbox">Inbox</string>
+    <string name="txt_No_notifications">No Notifications</string>
+    <string name="txt_Post_an_ad">Post an Ad</string>
+    <string name="txt_Make_a_wish">Make a Wish</string>
+    <string name="txt_New">New</string>
+    <string name="txt_all_categories">All categories</string>
+    <string name="txt_no_filter">No filter</string>
+    <string name="txt_Used">Used</string>
+    <string name="txt_most_demand">Most demanded</string>
+    <string name="Hint_txt_title_max_50_character">Title (max 50 characters)</string>
+    <string name="Hint_txt_category">Category</string>
+    <string name="Hint_txt_locality">Locality</string>
+    <string name="txt_Add_images">Add Images</string>
+    <string name="Hint_txt_ad_description">Description</string>
+    <string name="txt_Button_ads">ADS</string>
+    <string name="txt_Button_wishlist">WISHLISTS</string>
+    <string name="txt_Button_Bids">BIDS</string>
+    <string name="txt_Button_Users">USERS</string>
+    <string name="txt_No_users">No Users</string>
+    <string name="txt_Button_demand">DEMAND</string>
+    <string name="txt_Button_fulfill">FULFILL</string>
+    <string name="txt_No_bids">No Bids</string>
+    <string name="txt_No_wishes">No Wishes</string>
+    <string name="txt_Button_delete">DELETE</string>
+    <string name="txt_Button_repost">REPOST</string>
+    <string name="Hint_txt_your_Bid">Your bid:</string>
+    <string name="Title_txt_settings">Settings</string>
+    <string name="Title_txt_Categories">Categories</string>
+    <string name="Title_txt_Filters">Filters</string>
+    <string name="Title_txt_Help">Help</string>
+    <string name="Title_txt_about_us">About us</string>
+    <string name="Titlte_txt_FAQs">FAQs</string>
+    <string name="Title_txt_terms_and_conditions">Terms and Conditions</string>
+    <string name="Title_txt_privacy_policy">Privacy Policy</string>
+    <string name="Title_txt_contactus">Contact us</string>
+    <string name="Title_txt_logout">Logout</string>
+
+    <string name="signup_with_tnc">By signing up, you agree to our terms and conditions</string>
+
+    <string name="aboutus_text">About us</string>
+    <string name="aboutus_text1">IF is a price discovery engine which serves the purpose of determining the right price of products, goods or services </string>
+    <string name="contactus_text1">Write to us at ifadvertisings@gmail.com</string>
+
+    <!-- Privacy Policy -->
+    <string name="Privacy_Policy_text1">Openogy built the IF app as a Freemium app. This SERVICE is provided by Openogy at no cost and is intended for use as is.</string>
+    <string name="Privacy_Policy_text2">This page is used to inform visitors regarding our policies with the collection, use,
+        and disclosure of Personal Information if anyone decided to use our Service.
+ </string>
+    <string name="Privacy_Policy_text3">If you choose to use our Service, then you agree to the collection and use of information in relation to this policy.
+        The Personal Information that we collect is used for providing and improving the Service.
+        We will not use or share your information with anyone except as described in this Privacy Policy.</string>
+    <string name="Privacy_Policy_text4">The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
+        which is accessible at IF unless otherwise defined in this Privacy Policy.
+ </string>
+    <string name="Privacy_Policy_text5">Information Collection and Use</string>
+    <string name="Privacy_Policy_text6">For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information,
+        including but not limited to Full Name, Mobile Number, Email, City. The information that we request will be retained by us and used as described in this privacy policy.</string>
+    <string name="Privacy_Policy_text7">Log Data</string>
+    <string name="Privacy_Policy_text8">We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information
+        (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address,
+        device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.</string>
+    <string name="Privacy_Policy_text9">Cookies</string>
+    <string name="Privacy_Policy_text10">Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers.
+        These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.</string>
+    <string name="Privacy_Policy_text11">This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies”
+        to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device.
+        If you choose to refuse our cookies, you may not be able to use some portions of this Service.</string>
+    <string name="Privacy_Policy_text12">Service Providers</string>
+    <string name="Privacy_Policy_text13">We may employ third-party companies and individuals due to the following reasons:</string>
+    <string name="Privacy_Policy_text14">- To facilitate our Service,</string>
+    <string name="Privacy_Policy_text15">- To provide the Service on our behalf,</string>
+    <string name="Privacy_Policy_text16">- To perform Service-related services, or </string>
+    <string name="Privacy_Policy_text17">- To assist us in analyzing how our Service is used.</string>
+    <string name="Privacy_Policy_text18">We want to inform users of this Service that these third parties have access to your Personal Information.
+        The reason is to perform the tasks assigned to them on our behalf.
+        However, they are obligated not to disclose or use the information for any other purpose.</string>
+    <string name="Privacy_Policy_text19">Security</string>
+    <string name="Privacy_Policy_text20">We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+        But remember that no method of transmission over the internet,
+        or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</string>
+    <string name="Privacy_Policy_text21">Links to Other Sites</string>
+    <string name="Privacy_Policy_text22">This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site.
+        Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites.
+        We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</string>
+    <string name="Privacy_Policy_text23">Children\'s Privacy</string>
+    <string name="Privacy_Policy_text24">These Services do not address anyone under the age of 18. We do not knowingly collect personally identifiable information from children under 18.
+        In the case we discover that a child under 18 has provided us with personal information, we immediately delete this from our servers.
+        If you are a parent or guardian and you are aware that your child has provided us with personal information,
+        please contact us so that we will be able to do necessary actions.</string>
+    <string name="Privacy_Policy_text25">Changes to This Privacy Policy</string>
+    <string name="Privacy_Policy_text26">We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
+        We will notify you of any changes by posting the new Privacy Policy on this page.
+        These changes are effective immediately after they are posted on this page.</string>
+    <string name="Privacy_Policy_text27">Contact Us</string>
+    <string name="Privacy_Policy_text28">If you have any questions or suggestions about our Privacy Policy, do not hesitate to write us at ifadvertisings@gmail.com.</string>
+
+    <!-- Terms and conditions -->
+    <string name="Tnc_text1">Terms and Conditions</string>
+    <string name="Tnc_text2">By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You\’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You\’re not allowed to attempt to extract the source code of the app, and you also shouldn\’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Openogy.</string>
+    <string name="Tnc_text3">Openogy is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</string>
+    <string name="Tnc_text4">The IF app stores and processes personal data that you have provided to us, in order to provide our Service. It\’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone\’s security features and it could mean that the IF app won\’t work properly or at all.</string>
+    <string name="Tnc_text5">You should be aware that there are certain things that Openogy will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Openogy cannot take responsibility for the app not working at full functionality if you don\’t have access to Wi-Fi, and you don\’t have any of your data allowance left.</string>
+    <string name="Tnc_text6">If you\’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you\’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you\’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.</string>
+    <string name="Tnc_text7">Along the same lines, Openogy cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can\’t turn it on to avail the Service, Openogy cannot accept responsibility.</string>
+    <string name="Tnc_text8">With respect to Openogy\’s responsibility for your use of the app, when you\’re using the app, it\’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Openogy accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</string>
+    <string name="Tnc_text9">At some point, we may wish to update the app. The app is currently available on Android – the requirements for system(and for any additional systems we decide to extend the availability of the app to) may change, and you\’ll need to download the updates if you want to keep using the app. Openogy does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</string>
+    <string name="Tnc_text10">Using IF</string>
+    <string name="Tnc_text11">You agree that your listing, posting and / or Information:</string>
+    <string name="Tnc_text12">1. Shall “not be fraudulent, misrepresent, mislead or pertain to the sale of any illegal, counterfeit, stolen goods and / or services.</string>
+    <string name="Tnc_text13">2. Shall not pertain to good , services of which you are not the lawful owner or you do not have the authority or consent to \’list\’ which do not belong to you or you do not have the authority for.</string>
+    <string name="Tnc_text14">3. Shall not infringe any intellectual property, trade secret, or other proprietary right or rights of publicity or privacy of any third party.</string>
+    <string name="Tnc_text15">4. Shall not consist of material that is an expression of bigotry, racism or hatred based on age, gender, race, religion, caste, class, lifestyle preference, and nationality and / or is in the nature of being derogatory, slanderous to any third party.</string>
+    <string name="Tnc_text16">5. Shall not be obscene, contain pornography or contain “indecent representation of women” within the meaning of the Indecent Representation of Women (Prohibition) Act, 1986.</string>
+    <string name="Tnc_text17">6. Shall not distribute or contain spam, multiple / chain letters, or pyramid schemes in any of its forms.</string>
+    <string name="Tnc_text18">7. Shall not distribute viruses or any other technologies that may harm IF or the interests or property of IF users or impose an unreasonable load on the infrastructure or interfere with the proper working of IF.</string>
+    <string name="Tnc_text19">8. Shall not, directly or indirectly, offer, attempt to offer, trade or attempt to trade in any goods and services, the dealing of which is prohibited or restricted in any manner under the provisions of any applicable law, rule, regulation or guideline for the time being in force.</string>
+    <string name="Tnc_text20">9. Shall not be placed in a wrong category or in an incorrect area of the App.</string>
+    <string name="Tnc_text21">10. Shall not list or post or pertain to information that is either prohibited or restricted under the laws of the Republic of India.</string>
+    <string name="Tnc_text22">11. You consent to receive communications by email, call or by such other mode of communication, electronic or otherwise related to the services provided through the App.</string>
+    <string name="Tnc_text23">Listing Policy</string>
+    <string name="Tnc_text24">We prohibit any listing or posting of classifieds or information in relation to the following items:</string>
+    <string name="Tnc_text25">•	Alcoholic Beverages, Liquor, tobacco products, drugs, psychotropic substances, narcotics, intoxicants of any description, medicines, palliative/curative substances nor shall you provide link directly or indirectly to or include descriptions of items, goods or services that are prohibited under any applicable law for the time being in force including but not limited to the Drugs and Cosmetics Act, 1940, the Drugs And Magic Remedies (Objectionable Advertisements) Act, 1954 Narcotic Drug and Prohibited Substances Act and the Indian Penal Code, 1860.</string>
+    <string name="Tnc_text26">•	Living, dead person and/or the whole or any part of any human which has been kept or preserved by any means whether artificial or natural including any blood, bodily fluids and/ or body parts</string>
+    <string name="Tnc_text27">•	Prostitution or any other service in the nature there of that purports to violate the provisions of Immoral Act or Indecent representation of women which violates the contemporary standards of morality and decency in Indian society.</string>
+    <string name="Tnc_text28">•	Religious items, including books, artifacts, etc. or any information, description of any such item that is likely to affect the religious sentiments of any person or group</string>
+    <string name="Tnc_text29">•	Mature Audiences Policy includes films which do not have a certificate for public exhibition issued by the Central Board of Film Certification and or described and depict or otherwise deal with matters which are revolting or repulsive and or tend to deprave a persons mind in such a way that they tend to offend against the standards of morality, decency and propriety generally accepted by reasonable adults</string>
+    <string name="Tnc_text30">•	Obscene Items includes items which contain an indecent representation of women within the meaning of the Indecent Representation of Women (Prohibition) Act, 1986; Any publication or film or item that describes or depicts a minor who is, or who appears to be, under 18 (whether the minor is engaged in sexual activity or not) and any computer games not suitable for minor that are unsuitable for a minor to see or play.</string>
+    <string name="Tnc_text31">•	Offensive Material intended for use in a sexual setting (including "bondage" and "fetish" items,) displaying sexual activity or portraying human genitalia in a "life-like" or realistic fashion</string>
+    <string name="Tnc_text32">•	“Antiquities" and "Art Treasures" in violation of the provisions of the Antiquities and Art Treasures Act, 1972 ("the Act")</string>
+    <string name="Tnc_text33">•	Information or items that are defamatory, libelous, threatening or abusive in nature.</string>
+    <string name="Tnc_text34">•	Information that is fraudulent, misrepresenting as to the nature and use of the goods or the services.</string>
+    <string name="Tnc_text35">•	Counterfeit, Pirated and stolen goods or unauthorized illegal services (services for which you are not licensed or permitted to do or do not have the authority to under take).</string>
+    <string name="Tnc_text36">•	Items, goods and services that infringe or attempt to pass off any third parties intellectual property or rights of publicity or moral rights and or purport\’s to breach any persons right to privacy.</string>
+    <string name="Tnc_text37">•	Electronically transmitting through any medium computer viruses of any type or any computer program that facilitates hacking of a computer system which the intent to damage a computer or computer network or intercept any personal data.</string>
+    <string name="Tnc_text38">•	Your information shall not include any hate content, that is derogatory or slanderous in nature that may directed to any individual or group or advocate violence against any users individuals and or animals.</string>
+    <string name="Tnc_text39">•	Hazardous chemicals and pesticides and/ or items in violation of Hazardous Chemicals Act, 1985.</string>
+    <string name="Tnc_text40">•	Fireworks, Destructive Devices and Explosives including any material that enables the making of fireworks, explosive triggers and explosive devices.</string>
+    <string name="Tnc_text41">•	Identity Documents, Personal Financial Records and Personal Information (in any form, including mailing lists)</string>
+    <string name="Tnc_text42">•	Lottery Tickets, Sweepstakes Entries and Slot Machines</string>
+    <string name="Tnc_text43">•	Items in violation of the Food Adulteration Act, 1954.</string>
+    <string name="Tnc_text44">•	Military or Police Badges, Uniforms, coats-of-arms and or any Government emblems, insignia, and/ or items in violation of Emblems and names (Prevention of improper use) Act, 1950 and/ or Flag Codes of India Act, 2002</string>
+    <string name="Tnc_text45">•	Weapons and related items (such as firearms, firearm parts and magazines, ammunition, tear gas, stun guns, switchblade knives or any other item which is prohibited under the Indian Arms Act, 1959.</string>
+    <string name="Tnc_text46">•	Spam, abusive, duplicate, listing, fraud schemes (e.g. "Get rich quick" "work at homes" scams which are solely listed for the purpose of duping users)</string>
+    <string name="Tnc_text47">Eligibility</string>
+    <string name="Tnc_text48">Use of IF App either by registration or by any other means, is available only to persons, who are Citizens of the Republic of India, who are 18 years of age and above and persons who can enter into a legally binding contract, and or are not barred by any law for the time being in force. </string>
+    <string name="Tnc_text49">Violations By User</string>
+    <string name="Tnc_text50">You agree that in the event your listing, posting or your information violates any provision of this policy, we shall have the right to terminate and or suspend your membership of the App and refuse to provide you or any person acting on your behalf, access to the App</string>
+    <string name="Tnc_text51">Content</string>
+    <string name="Tnc_text52">The App contains content which includes Your Information, IF\’s information and information from other users. You agree not to copy, modify, or distribute such content (other than Your Information), IF\’s copyrights or trademarks. When you give us any content as part of Your Information, you are granting us a non-exclusive, worldwide, perpetual, irrevocable, royalty-free, sub-licensable right and license to use, reproduce, , publish, translate, distribute, perform and display such content (in whole or part) worldwide through the App as well as on any of our affiliates or partners websites, publications and mobile/Web platform. We need these rights with respect to the content in Your Information in order to host and display your content. </string>
+    <string name="Tnc_text53">Liability</string>
+    <string name="Tnc_text54">You agree not to hold IF or any of its officers, employees, agents responsible or accountable for any of your listing, postings or information and nor shall we, our officers, employees or agents be liable for any misuse, illegal activity or third party content as most postings, listings or information are generated by various users directly and we do not have any role in the creation, publication or distribution of the posting, listing or information, nor are we in a position to have editorial control over the substance or content contained in the listings, postings, or information.</string>
+    <string name="Tnc_text55">Personal Information</string>
+    <string name="Tnc_text56">By using IF, you agree to the collection, transfer, storage and use of any personal information provided by you on the App IF.
+You agree that IF may use information shared by you to provide customer services and to understand if any other services or advertisement listed on IF App may interest you.
+You agree that, we may share personally identifiable data of any individual to our agents or recruiters or Affiliates defined as any person directly or indirectly controlling, controlled by, or under direct or indirect common control with, IF, including its subsidiaries and associate companies.
+</string>
+    <string name="Tnc_text57">Changes to This Terms and Conditions</string>
+    <string name="Tnc_text58">We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page.</string>
+    <string name="Tnc_text59">Contact Us</string>
+    <string name="Tnc_text60">If you have any questions or suggestions about our Terms and Conditions, do not hesitate to write us at ifadvertisings@gmail.com</string>
+
+    <!-- FAQs -->
+    <string name="faq_text2">How does the bidding mechanism work ?</string>
+    <string name="faq_text3">Once a user makes a bid on a listing/ad the user who posted gets a notification concerning it. After that it is upto the user
+and the seller how they decide to take the deal forward.</string>
+    <string name="faq_text4">Is there any exchange of money involved ?</string>
+    <string name="faq_text5">No there is no exchange of money involved through the application. The application through its bidding mechanism just
+   aggregates bids from user for a particular listing.</string>
+    <string name="faq_text6">When does the vendor get a notification for a listing ?</string>
+    <string name="faq_text7">- For the first bid on a listing/ad.</string>
+    <string name="faq_text8">- After that everytime the new bid is higher than the highest bid on a listing/ad.</string>
+    <string name="faq_text9">- Everytime a user makes a demand for the listing by clicking on the demand button.</string>
+    <string name="faq_text10">- Everytime a comment is made on a listing.</string>
+    <string name="faq_text11">What is the WishList ?</string>
+    <string name="faq_text12">Using the wishlist you can make a Wish for whatever you are looking for in your city.</string>
+    <string name="faq_text13">When does the user get a notification for a Wish ?</string>
+    <string name="faq_text14">- Everytime a user clicks on the Fulfill button of a Wish.</string>
+    <string name="faq_text16">- Everytime a a comment is made on a Wish.</string>
+    <string name="faq_text15">How to earn a badge?</string>
+    <string name="faq_text1">There are 4 badges i.e. Bronze, Silver, Gold and Elite.
+        Users will only be able to earn the badge according to our internal set of rules and criteria set by us. By Default, no one gets a badge (i.e. none).</string>
+    <string name="faq_text17">What does the bid button do ?</string>
+    <string name="faq_text18">Using the bid button the user can make a bid on a listing/ad. Everytime a bid is made the user is also
+presented with a checkbox using which he can choose whether the seller can contact him using his contact number or not concerning
+that particular bid.</string>
+    <string name="faq_text19">What does the Fulfill button do ?</string>
+    <string name="faq_text20">For a partiular Wish when a user clicks on the Fulfill button he intends to fulfill that Wish. Once he clicks on the Fulfill button
+his contact number is also shared with the person on whose Wish he has clicked Fulfill.</string>
+
+
+</resources>

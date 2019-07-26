@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/roundbuttonempty1">
+
+
+    <LinearLayout
+        android:id="@+id/VendorNameLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvVendorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_sans"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+
+
+        <TextView
+            android:id="@+id/tvLocality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_sans"
+            android:textSize="14dp"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AdImagesContainerLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VendorNameLinearLayout">
+
+        <ProgressBar
+            android:id="@+id/ImageProgressbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:theme="@style/AppTheme"
+            />
+
+        <ImageView
+            android:id="@+id/IvAdImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AdTitleLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AdImagesContainerLinearLayout">
+
+    <TextView
+        android:id="@+id/tvAdTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="12dp"
+        android:fontFamily="@font/nunito_sans"
+        android:textSize="14dp"
+        android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/PriceLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AdTitleLinearLayout">
+
+        <TextView
+            android:id="@+id/tvSellingPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="@font/nunito_sans"/>
+
+        <TextView
+            android:id="@+id/tvHighestBid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="15dp"
+
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ButtonLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PriceLinearLayout">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ImageButtonCall"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/icons8_phone_48"
+                    android:focusable="false"
+                    android:scaleType="fitStart"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.100"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/PriceLinearLayout" />
+
+                <ImageButton
+                    android:id="@+id/ImageButtonBid"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="20dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/icons8_coins_48"
+                    android:scaleType="fitStart"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.500"
+                    app:layout_constraintStart_toStartOf="@id/ImageButtonBid"
+                    app:layout_constraintTop_toBottomOf="@+id/PriceLinearLayout" />
+
+                <ImageButton
+                    android:id="@+id/ImageButtonReport"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/icons8_spam_48"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@id/ImageButtonReport"
+                    app:layout_constraintTop_toBottomOf="@+id/PriceLinearLayout" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+               <TextView
+                   android:id="@+id/txtCall"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Call"
+                   android:layout_marginStart="0dp"
+                   android:layout_marginLeft="6dp"
+                   android:layout_marginTop="0dp"
+                   android:layout_marginEnd="28dp"
+                   android:layout_weight="1"
+                   android:scaleType="fitStart"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   app:layout_constraintHorizontal_bias="1.0"
+                   android:fontFamily="@font/nunito_sans"
+                   android:textSize="12dp"
+                  android:textAlignment="center"/>
+                <TextView
+                    android:id="@+id/txtBid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bid"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    android:fontFamily="@font/nunito_sans"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:id="@+id/txtReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    android:fontFamily="@font/nunito_sans"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvNoOfDemands"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:textSize="15dp"
+                android:layout_marginTop="8dp"
+                android:paddingRight="6dp"
+                android:textColor="#000000"
+                android:fontFamily="@font/nunito_sans"
+                />
+
+            <Button
+                android:id="@+id/btnDemand"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="1dp"
+                android:adjustViewBounds="true"
+                android:text="@string/txt_Button_demand"
+                android:textColor="#ffffff"
+                android:paddingTop="1dp"
+                android:paddingRight="1dp"
+                android:paddingLeft="1dp"
+                android:paddingBottom="1dp"
+                android:fontFamily="@font/montserrat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.220"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PriceLinearLayout" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

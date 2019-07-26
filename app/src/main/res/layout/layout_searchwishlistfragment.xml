@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3F5"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tvNoWishList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/txt_noWishes"
+            android:textSize="30sp"
+            android:fontFamily="@font/montserrat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+                <ListView
+                    android:id="@+id/WishListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:scrollbars="none"
+                    android:focusable="true"
+                    android:dividerHeight="10dp"
+                    android:divider="#F2F3F5"
+                    android:layout_marginBottom="?attr/actionBarSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terms_and_conditions_activity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:gravity="center_vertical|start"
+        android:theme="@style/ToolbarStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/IF_Hdeading"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text1"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text2"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text3"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text4"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text5"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text6"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text7"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text8"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text9"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text10"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:paddingBottom="4dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text11"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text12"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text13"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text14"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text15"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text16"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text17"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text18"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text19"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text20"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text21"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text22"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text23"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:paddingBottom="4dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text24"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text25"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text26"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text27"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text28"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text29"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text30"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text31"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text32"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text33"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text34"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text35"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text36"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text37"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text38"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text39"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text40"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text41"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text42"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text43"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text44"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text45"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text46"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text47"
+            android:textSize="12sp"
+
+            android:paddingBottom="4dp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text48"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text49"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text50"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text51"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text52"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text53"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text54"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text55"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text56"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text57"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text58"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text59"
+            android:textSize="12sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Tnc_text60"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_sans"
+            android:paddingBottom="4dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
